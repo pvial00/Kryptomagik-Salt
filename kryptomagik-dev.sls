@@ -20,3 +20,8 @@ NISTSP80090B:
         - name: https://github.com/usnistgov/SP800-90B_EntropyAssessment
         - target: /magik/nistsp80090b
         - user: root
+
+makeNISTSP80090B:
+    cmd.run:
+        - name: make
+        - cwd: /magik/nistsp80090b/cpp
