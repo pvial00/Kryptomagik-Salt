@@ -1,6 +1,7 @@
 dependencies_install:
     pkg.installed:
         - pkgs:
+            - libssl-dev
             - libbz2-dev
             - libdivsufsort-dev
             - dieharder
