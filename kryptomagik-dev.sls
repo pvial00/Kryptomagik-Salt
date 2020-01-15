@@ -8,6 +8,9 @@ dependencies_install:
             - ent
             - build-essential
             - gdb
+            - libgmp-dev
+            - libmpfr-dev
+            - libmpc-dev
 
 /magik:
     file.directory:
