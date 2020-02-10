@@ -14,6 +14,7 @@ dependencies_install:
             - libmpc-dev
             - vim
             - git
+            - python-pip
 
 /magik:
     file.directory:
@@ -36,3 +37,7 @@ makeNISTSP80090B:
         - cwd: /magik/nistsp80090b/cpp
         - order: 4
 
+pipgmpy2:
+    cmd.run:
+        - name: pip install gmpy2
+        - order: 5
